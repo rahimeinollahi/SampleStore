@@ -7,4 +7,10 @@ import router from './router'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 /****************************************************************************/
+
+
+/****************************************************************************/
+//add scss folder to improve and optimize css file
+import './scss/index.scss'
+/****************************************************************************/
 createApp(App).use(router).mount('#app')
