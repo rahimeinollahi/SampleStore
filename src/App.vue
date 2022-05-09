@@ -2,7 +2,9 @@
   <div id="nav">
     <home-navbar />
     <home-navbar-2 />
+
   </div>
+  
   <router-view/>
 </template>
 
