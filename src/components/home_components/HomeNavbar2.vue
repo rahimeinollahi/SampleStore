@@ -18,7 +18,7 @@
             </li>
 
             <li class="nav-item">
-                <router-link class="nav-link" to="/knoledge">تبادل دانش </router-link>
+                <router-link class="nav-link" to="/knowledge">تبادل دانش </router-link>
             </li>
 
             <li class="nav-item">
