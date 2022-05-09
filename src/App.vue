@@ -1,15 +1,18 @@
 <template>
   <div id="nav">
     <home-navbar />
+    <home-navbar-2 />
   </div>
   <router-view/>
 </template>
 
 <script>
 import HomeNavbar from '../src/components/home_components/HomeNavbar.vue'
+import HomeNavbar2 from './components/home_components/HomeNavbar2.vue'
 export default {
   components:{
-    HomeNavbar
+    HomeNavbar,
+    HomeNavbar2
   }
 }
 </script>
