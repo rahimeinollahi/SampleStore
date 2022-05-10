@@ -20,7 +20,7 @@
                     {id:2, itemName:'طراحی سایت',itemPath:'/designsite'},
                     {id:3, itemName:'طراحی سایت وردپرس',itemPath:'/wordpress'},
                     {id:4, itemName:'سئو',itemPath:'/seo'},
-                    {id:5, itemName:'گوگل ادورز',itemPath:'/googleadwords'},
+                    {id:5, itemName:'گوگل ادورز',itemPath:'/googleadd'},
                     {id:6, itemName:'اپلیکشین',itemPath:'/application'},
                     {id:6, itemName:'عکاسی',itemPath:'/photography'},
                     {id:6, itemName:'CRM',itemPath:'/crm'},

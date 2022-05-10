@@ -21,6 +21,38 @@ const routes = [
     component: () => import(/* webpackChunkName: "iransite" */ '../views/IranSite.vue'),
     meta:{transition:'ts-iransite'}
   },
+  {
+    path: '/knowledge',
+    name: 'Knowledge',
+    component: () => import(/* webpackChunkName: "iransite" */ '../views/Knowledge.vue'),
+    meta:{transition:'ts-knowledge'}
+  },
+  {
+    path: '/seo',
+    name: 'Seo',
+    component: () => import(/* webpackChunkName: "seo" */ '../views/Seo.vue'),
+    meta:{transition:'ts-seo'}
+  },
+  {
+    path: '/googleadd',
+    name: 'GoogleAdd',
+    component: () => import(/* webpackChunkName: "seo" */ '../views/GoogleAddwords.vue'),
+    meta:{transition:'ts-googleadd'},
+    children:[
+      {
+        path:'site1',
+        name:'Site1',
+        component: () => import(/* webpackChunkName: "site1" */ '../views/Site1.vue'),
+        
+      }
+    ]
+  },
+  {
+    path: '/crm',
+    name: 'crm',
+    component: () => import(/* webpackChunkName: "seo" */ '../views/Crm.vue'),
+    meta:{transition:'ts-crm'}
+  },
 ]
 
 const router = createRouter({
