@@ -34,6 +34,12 @@ const routes = [
     meta:{transition:'ts-seo'}
   },
   {
+    path: '/wordpress',
+    name: 'WordPress',
+    component: () => import(/* webpackChunkName: "wordpress" */ '../views/WordPress.vue'),
+    meta:{transition:'ts-seo'}
+  },
+  {
     path: '/sitedesign',
     name: 'SiteDesign',
     component: () => import(/* webpackChunkName: "seo" */ '../views/SiteDesign.vue'),
