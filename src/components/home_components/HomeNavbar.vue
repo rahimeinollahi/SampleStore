@@ -17,7 +17,7 @@
             return{
                 homenavItems:[
                     {id:1, itemName:'IRANSITE',itemPath:'/iransite'},
-                    {id:2, itemName:'طراحی سایت',itemPath:'/designsite'},
+                    {id:2, itemName:'طراحی سایت',itemPath:'/sitedesign'},
                     {id:3, itemName:'طراحی سایت وردپرس',itemPath:'/wordpress'},
                     {id:4, itemName:'سئو',itemPath:'/seo'},
                     {id:5, itemName:'گوگل ادورز',itemPath:'/googleadd'},

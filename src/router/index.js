@@ -34,6 +34,12 @@ const routes = [
     meta:{transition:'ts-seo'}
   },
   {
+    path: '/sitedesign',
+    name: 'SiteDesign',
+    component: () => import(/* webpackChunkName: "seo" */ '../views/SiteDesign.vue'),
+    meta:{transition:'ts-sitedesign'}
+  },
+  {
     path: '/googleadd',
     name: 'GoogleAdd',
     component: () => import(/* webpackChunkName: "seo" */ '../views/GoogleAddwords.vue'),
